@@ -1,0 +1,21 @@
+cat > .gitignore << 'EOF'
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Cache de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+
+# NO ignorar db.sqlite3 (regla del profe)
+EOF
